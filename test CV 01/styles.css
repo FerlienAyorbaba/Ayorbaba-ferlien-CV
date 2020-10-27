@@ -1,0 +1,28 @@
+a[href]{
+    text-decoration: lightsalmon;
+    text-transform: capitalize;
+    background-color: lightseagreen;
+}
+#top-container{
+    background-color: lightyellow;
+}
+p:hover{
+    color: white;
+    background-color: black;
+}
+.success{
+    color: chocolate;
+}
+li:hover{
+    color: white;
+    background-color: black;
+}
+.feedback{
+    color: lightgreen;
+}
+.error{
+    color: lightslategray;
+}
+.work{
+    color: darkorange;
+}
