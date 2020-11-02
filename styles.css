@@ -1,31 +1,58 @@
-a[href]{
+/*a[href]{
     text-decoration: lightpink;
     text-transform: capitalize;
     background-color:lightslategray;
+    text-align: center;
+}*/
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: lightslategray;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    font-size: 2em;
+    text-align: center;
 }
 #top-container{
     background-color: lightyellow;
+    text-align: center;
 }
 p:hover{
     color: white;
     background-color: black;
     font-family: 'Itim', cursive;
     
+    
 }
 .success{
     color: chocolate;
+    /*text-align: center;*/
+    
 }
 li:hover{
     color: white;
     background-color: black;
     font-family: 'Itim', cursive;
+    
 }
 .feedback{
     color: lightgreen;
+    /*text-align: center;*/
+    
 }
 .error{
     color: lightslategray;
+    
 }
 .work{
     color: darkorange;
+    
+}
+/*div.paragraf{
+    text-align: center;
+}
+div.bulat{
+    text-align: center;
 }
