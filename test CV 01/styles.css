@@ -1,7 +1,7 @@
 a[href]{
-    text-decoration: lightsalmon;
+    text-decoration: lightpink;
     text-transform: capitalize;
-    background-color: lightseagreen;
+    background-color:lightslategray;
 }
 #top-container{
     background-color: lightyellow;
@@ -9,6 +9,8 @@ a[href]{
 p:hover{
     color: white;
     background-color: black;
+    font-family: 'Itim', cursive;
+    
 }
 .success{
     color: chocolate;
@@ -16,6 +18,7 @@ p:hover{
 li:hover{
     color: white;
     background-color: black;
+    font-family: 'Itim', cursive;
 }
 .feedback{
     color: lightgreen;
