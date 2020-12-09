@@ -5,6 +5,7 @@
     <title>Ferlien Ayorbaba CV</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
 </head>
 <body>
 <header>
@@ -12,22 +13,24 @@
     <tbody>
     <tr>
         <td>
-            <img src="image/circle-cropped (1).png" alt="Profile-Picture"width="200">
+            <img src="image/circle-cropped.png" alt="Profile-Picture"width="200">
         </td>
         <td>
             <div id="top-container">
-            <h1>Ferlien Praycilia Ayorbaba</h1>
-            <h1>Student of Computer Science of Universitas Klabat,Airmadidi,Minahasa Utara,Manado</h1>
+            <h1 id="Nama">Ferlien Praycilia Ayorbaba</h1>
+            <h1 class="Sekolah">Student of Computer Science of Universitas Klabat,Airmadidi,Minahasa Utara,Manado</h1>
             <p> 📍Kelurahan winenet satu 005/002,Kec Aertembaga,Kota Bitung</p>
             <p> 📧Email    :ayorbabaien05@gmail.com</p>
             <p> 🔎Facebook :Ferlien Praycilia</p>
             <p> 🔎Instagram:Iyenpraycilia</p>
             <p> 📞Phone/WA    :+6281242445350</p>
+            <p id="demo"></p>
+            <button onclick="displayDate()">what time is it?</button>
+
             </div>
             
          </td>
     </tr>
-    
     </tbody>
     </table>
 </header>
@@ -38,10 +41,13 @@
     <a href="#Education">| Education</a>
     <a href="#Contact me">| Contact me</a>
 </nav>
+
+
 <section id="Personal Profile">
     <hr>
     <h1 class="success">Personal Profile</h1>
     <div class="paragraf">
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)"style="background-color:lightslategray;width:120px;height:20px;padding:20px;">See Me!</div>
     <p>Nama   :Ferlien Praycilia Ayorbaba</p>
     <p>TTD    :Timika 05 Juni 2001</p>
     <p>Umur   :19 Thn</p>
@@ -56,6 +62,7 @@
     <hr>
     <h1 class="feedback">Hobby</h1>
     <div class="bulat">
+    
         <ul>
             <li>Photography</li>
             <li>Watching Movie</li>
@@ -114,6 +121,11 @@
    </form>
 </section>
 <footer></footer>
+
+<h1 onclick="changeText(this)">Click Me!</h1>
+
+<p>If you unklab click this button</p>
+<button id="myBtn">Yes</button>
 
 </body>
 </html>
